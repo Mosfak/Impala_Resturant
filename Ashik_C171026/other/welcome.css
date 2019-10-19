@@ -1,0 +1,20 @@
+body{
+    background-color:skyblue;
+}
+
+.wlcm{
+    text-align: center;
+    margin-top:300px    ;
+}
+.wlcm h1{
+    font-size:80px;
+    
+}
+.wlcm a{
+    border:1px solid black;
+    padding:5px;
+    text-decoration: none;
+    background-color:green;
+    color:white;
+    font-size:20px;
+}
