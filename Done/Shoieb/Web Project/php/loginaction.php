@@ -4,8 +4,8 @@ $username="root";
 $password="";
 $dbname="mydb";
   
-$info=$_POST['search'];
-
+$email=$_POST['email'];
+$pass=$_POST['pass'];
 
 
 $conn = new mysqli($servername,$username,$password,$dbname);
@@ -16,21 +16,22 @@ if($conn->connect_error)
     die();
 }
 
-$sql="SELECT hadith FROM hadith WHERE reference=? "; //edit sql command
+$sql="SELECT * FROM account WHERE email=? and pass=? ";
 
 $stmt = $conn->prepare($sql);
-$stmt->bind_param("s",$info);               //this replaces ques mark in
+$stmt->bind_param("ss",$email,$pass);
 $stmt->execute();
 
 $stmt->store_result();
 
 if($stmt->num_rows>0){
-    echo "<script>info('$info')</script>";
-    
-    
+    echo "Login Successfull";
+    header("refresh:1;url='../index.php'");
 }
 else{
-    echo "<script>document.getElementById('para').innerHTML='Not Found'</script>";
+    echo "Login Failed!!!!";
+    header("refresh:1;url='../login.html'");
+           
 }
 
 
