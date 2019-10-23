@@ -4,7 +4,7 @@ include("include/db_config.php");
 <html>
 <head>
 <title>
-Donz Hall Booking
+Hall Booking System
 </title>
 </head>
 <body>

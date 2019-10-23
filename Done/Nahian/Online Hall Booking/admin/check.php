@@ -1,5 +1,5 @@
 <center>
-<h1>Ki Khubor Lait Kam</h1>
+<h1>.......</h1>
 <hr>
 <p>
 Sorry your are not Authorize to Access This Page

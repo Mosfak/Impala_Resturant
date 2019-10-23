@@ -11,7 +11,7 @@ if(!(isset($_SESSION['log_user'])))
 <html>
 <head>
 <title>
-Ki Khubor Lait Kam
+........
 </title>
 <link href="Assets/css/style.css" rel="stylesheet" />
 <style>

@@ -1,0 +1,7 @@
+
+
+
+function Click(){
+    alert("clicked");
+    
+}

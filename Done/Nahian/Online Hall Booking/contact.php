@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>Ki Khubor Lait Kam || Contact</title>
+<title>Contact</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href="Assets/css/style.css" rel="stylesheet" />
@@ -61,7 +61,7 @@ function checkEmail()
 <?php
 if(isset($_POST["send"]))
 	{
-$myemail = 'donboklari@gmail.com';
+$myemail = 'sultanmahmud621@gmail.com';
 if(empty($_POST['name'])  || empty($_POST['email']) || empty($_POST['message']))
 {
     echo "<script>alert('All Field Required')</script>";

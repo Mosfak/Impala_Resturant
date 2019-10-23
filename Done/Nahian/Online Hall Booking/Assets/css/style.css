@@ -153,7 +153,7 @@ body {
 	background-attachment:fixed;
 }
 
-/* Style the header */
+
 header {
 	padding:20px;
     text-align: center;
@@ -166,7 +166,7 @@ article {
     padding: 20px;
     width: 100%;
     background-color: #fff;
-    height: auto; /* only for demonstration, should be removed */
+    height: auto; 
 	border-style:double;
 		border-radius:5px;
 }
@@ -175,10 +175,10 @@ article {
     padding: 20px;
     width: 100%;
 	background-color:#fff;
-    height: auto; /* only for demonstration, should be removed */
+    height: auto;
 }
 
-/* Clear floats after the columns */
+
 section:after {
     content: "";
     display: table;
@@ -192,7 +192,7 @@ section:after {
 	border-radius:10px;
 }
 
-/* Style the buttons inside the tab */
+
 .tab button {
     background-color: inherit;
     float: left;
@@ -203,17 +203,16 @@ section:after {
     transition: 0.3s;
     font-size: 17px;
 }
-/* Change background color of buttons on hover */
+
 .tab button:hover {
     background-color: #66ccff ;
 }
 
-/* Create an active/current tablink class */
 .tab button.active {
     background-color: #0099cc;
 }
 
-/* Style the tab content */
+
 .tabcontent {
     display: none;
     padding: 6px 12px;
@@ -221,7 +220,7 @@ section:after {
     border-top: none;
 }
 
-/* Style the footer */
+
 footer {
     background-color: #fff;
     padding: 10px;
@@ -248,7 +247,6 @@ border-style:double;
         height: auto;
     }
 }
-/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
 @media (max-width: 500px) {
     nav, article, .srctxt, .btn, .sec2, .tab,.txtar {
         width: 100%;

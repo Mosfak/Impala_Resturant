@@ -1,13 +1,13 @@
 <html>
 <head>
 <title>
-Donz Hall Booking
+Hall Booking System
 </title>
 <meta http-equiv="refresh" content="10; url=track.php">
 </head>
 <body>
 <center>
-<h1>Donz Hall Booking</h1>
+<h1>Hall Booking System</h1>
 <hr>
 <p>
 You have Cancel your paymeny<br>

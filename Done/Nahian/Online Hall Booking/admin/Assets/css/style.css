@@ -149,7 +149,7 @@ body {
 	
 }
 
-/* Style the buttons inside the tab */
+
 .tab button {
     background-color: inherit;
     float: left;
@@ -160,17 +160,17 @@ body {
     transition: 0.3s;
     font-size: 17px;
 }
-/* Change background color of buttons on hover */
+
 .tab button:hover {
     background-color: #66ccff ;
 }
 
-/* Create an active/current tablink class */
+
 .tab button.active {
     background-color: #0099cc;
 }
 
-/* Style the tab content */
+
 .tabcontent {
     display: none;
     padding: 6px 12px;

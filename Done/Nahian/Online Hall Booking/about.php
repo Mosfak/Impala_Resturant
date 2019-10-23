@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>Dona HAll BOOKING || About ME</title>
+<title>About ME</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href="Assets/css/style.css" rel="stylesheet" />
@@ -23,9 +23,9 @@
 <div class="container">
   <center>
   <h2><u>About Me</u></h2>
- <p>Hi, My name is Donbok Kharkongor, I take this chance to provide all the avialable Hall for those who need. This an example website is build specifically for Hall booking. You will get the latest hall. If you have anything you to ask, contact me on the below number or use the contact form. <br>
- Phone: 918787754861<br>
- Whatsapp: 919402516338 <br>
+ <p>Hi, My name is Sultan MAhmud<br>
+ Phone: 01521401626<br>
+ 
  <br>
  <img src="Assets/images/picture/owner.jpg" width="200" class="im">
  </p>

@@ -1,5 +1,5 @@
 <center>
-<h1>Donz Hall Booking</h1>
+<h1>Hall Booking System</h1>
 <hr>
 <?php
 session_start();

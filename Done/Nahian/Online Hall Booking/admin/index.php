@@ -3,7 +3,7 @@ include("include/db_config.php");
 ?>
 <html>
 <head>
-<title>Donz Hall Booking</title>
+<title>Hall Booking System</title>
 <style>
 
 .sr {

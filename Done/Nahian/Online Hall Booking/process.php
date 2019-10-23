@@ -12,13 +12,13 @@ else
 <html>
 <head>
 <title>
-Meghalaya Power Payment
+payment
 </title>
 <meta http-equiv="refresh" content="10; url=schpayment.php">
 </head>
 <body>
 <center>
-<h1>Meghalaya Electricity Bill Payment</h1>
+<h1>Bill Payment</h1>
 <hr>
 <p>
 Your Will be redirect to payment<br>

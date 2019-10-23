@@ -1,0 +1,114 @@
+.fix{
+    overflow: hidden;
+}
+body{
+    background:url("../img/kitchen.jpg");
+    background-attachment:fixed ;
+}
+
+
+.header{
+    background-color:#ff3b3b; padding:5px;
+    
+    
+}
+.logo{float:left;color: black;
+    text-shadow:5px 5px 8px black;
+    ;padding-right:20px;padding-left:20px;
+    
+    
+}
+.logo h1{
+    
+    padding:5px;
+    padding-top:0px;
+    box-shadow:1px -1px 1px black;
+}
+.menu{float:right;}
+.menu ul{margin-top:25px;}
+.menu ul li{
+    float:left;
+    list-style:none;     
+}
+.menu ul li a{ 
+    text-decoration: none; font-weight: 700;
+    padding: 20px 25px;
+    font-size: 24px;
+    border-right:1px solid #faf68c;
+    display:inline-block;
+    color: black;
+   
+}
+.menu ul li a:hover{
+    
+    transform: translateY(-10px);
+    text-shadow: 7px 7px 12px;
+    
+     color:black;
+}
+
+
+.frm{
+    display:block;
+    text-align:left;
+    color:white;
+    background-color: #ff3b3b;;
+    font-family:sans-serif;
+    font-weight: bolder;
+    margin-right: 1000px;
+    padding-top:120px;
+    padding-bottom:120px;
+    padding-left:50px;
+    padding-right:50px;
+    border:1px solid gray;
+    border-style: dashed;;
+}
+.frm form{
+    border-right:1px solid gray;
+    border-bottom:1px solid gray;
+    box-shadow: 5px 5px 12px black;
+    padding:20px;
+}
+.frm input[type="text"],input[type="password"]{
+    width:100%;
+}
+
+
+
+.footer{
+    background-color:black;
+    color:white;
+    
+}
+.contacts{
+    text-align: center;
+}
+.open{
+    float:left;
+    margin:140px;
+    margin-top:50px;
+    margin-bottom:30px;
+    padding:20px;
+    border:1px solid blue;
+}
+
+.seat{
+    float:left;
+    width:30%;
+    margin-top:0px;
+    margin-left:20px;
+    
+}
+
+.seat h2{color:red;margin-bottom:20px;}
+.map {
+    float:right;
+    margin-top:0px;
+}
+
+.cpyright{
+	background-color:black;
+	color:white;
+	text-align:center;
+	
+}
