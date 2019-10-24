@@ -9,7 +9,7 @@ html{
 .fix{
     overflow:hidden;
 }
-#hm{
+#gallery{
 	background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(../Picture/PICTURE.jpg);
 	height: 100vh;
 	background-size: cover;

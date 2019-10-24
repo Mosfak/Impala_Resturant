@@ -12,10 +12,10 @@
 			
 		 <ul>
 		     <li><a href="../index.php#hm"><b>HOME</b></a></li>
-			 <li><a href="../index.php#gl"><b>Gallery</b></a></li>
+			 <li><a href="../index.php#gallery"><b>Gallery</b></a></li>
 			 <li><a href="../index.php#room"><b>Room</b></a></li>
 			 <li><a href="../index.php#about"><b>About</b></a></li>
-			 <li><a href="../index.php#contact"><b>Contact</b></a></li>
+			 <li><a href="../Contact.php"><b>Contact</b></a></li>
              <li><a href="Signup.php"><b>SignUP</b></a></li>
 		 </ul>
          </div>

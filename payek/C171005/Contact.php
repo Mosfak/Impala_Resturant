@@ -11,7 +11,7 @@
 			
 		 <ul>
 		     <li><a href="index.php"><b>HOME</b></a></li>
-			 <li><a href="gallery.php"><b>Gallery</b></a></li>
+			 <li><a href="index.php#gallery"><b>Gallery</b></a></li>
 			 <li><a href="#room"><b>Room</b></a></li>
 			 <li><a href="#about"><b>About</b></a></li>
 			 <li><a href="#contact"><b>Contact</b></a></li>
@@ -24,7 +24,7 @@
             <div class="wrapper">
                 <div class="frm" >
 
-                    <form action="../php/loginaction.php" method="post">
+                    <form action="" method="post">
                         
                         <lebel for="email">Email:</lebel><br>
                         <input type="text" size="50" name="email" /><br>
@@ -47,7 +47,7 @@
                     <h1>Contacts</h1>
                     <hr width="300px"  color="red" style="margin-left: 600px;">
                     <p >Email:yap.yeasin@gmail.com</p>
-                    <p>Phone:01318370744</p>
+                    <p>Phone:01318370755</p>
                 </div>
                 <div class="fix seat">
                     <form>
