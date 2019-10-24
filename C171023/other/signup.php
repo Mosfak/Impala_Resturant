@@ -27,10 +27,10 @@
         <input type="text" name="name"><br><br>
         <lebel>Phone</lebel><br>
         <input type="text" name="phone"><br><br>
-        <input type="submit" value="login"/>
-
+        <input type="submit" value="Sign Up"/>
+        <a href="login.php" > >>Login</a>
     </form>
-    <a href="login.php"> >>Login</a>
+    
 </div>
 
 <div class="fix footer" >

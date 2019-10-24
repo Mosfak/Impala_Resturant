@@ -11,8 +11,12 @@ body{font-family:Cursive;}
 }
 .header{
     background-color:#ff3b3b; padding:30px;
+    padding-bottom:10px;
+    padding-top:0px;
 }
-.logo{float:left;color: black;}
+.logo{float:left;color: black;
+    text-shadow:5px 5px 8px black;
+    ;padding-right:20px;padding-left:20px;}
 .menu{float:right;}
 .menu ul{margin-top:15px;}
 .menu ul li{

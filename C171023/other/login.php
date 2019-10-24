@@ -4,6 +4,7 @@
 </head>
 
 <body>
+    
 <div class="fix header">
     <div class="fix logo" onclick="document.location.href='../index.php'"><h1><span style="color:yellow;font-size:50;text-decoration:;">Im<span style="color:blue;">pala</span></span><br>Restaurant</h1></div>
     <div class="fix menu">
@@ -24,9 +25,10 @@
         <lebel>Password</lebel><br>
         <input type="password" name="pass"><br><br>
         <input type="submit" value="login"/>
+        <a href="signup.php"> >>Sign Up</a>
 
     </form>
-    <a href="signup.php"> >>Sign Up</a>
+    
 </div>
 
 <div class="fix footer" >

@@ -2,8 +2,50 @@
     <head>
         <title>Impala Restaurant</title>
         <link rel="stylesheet" href="style_order.css" type="text/css">
-        <script  src="script.js">
+        <script >
             
+
+            var food=[
+                
+                ["Chicken Burger",0],  
+                ["Beef Burger",0],  
+                ["Chicken biriyani",0],  
+                ["Chicken Tanduri",0],  
+                ["Item1",0],  
+                ["Item2",0]  
+                
+            ];
+            
+            var price=[ 120,150,120,300,20,70 ];
+            var sum=0;
+            
+            
+            function Click(name){
+                for(var i=0;i<food.length;i++){
+                    if(name==food[i][0]){
+                        food[i][1]++;
+                        sum=sum+price[i];
+                    }
+                }
+                
+
+                
+                
+            }
+            
+            
+            
+            
+            
+            function print(){
+                for(var i=0;i<food.length;i++){
+                    console.log(food[i][0]+"----"+food[i][1]+"---"+price[i]);
+                    console.log("\n"+sum);
+                }
+                
+            }
+  
+  
         
         </script>
     </head>
@@ -17,10 +59,10 @@
                 <div class="fix menu">
                     <ul>
                         <li><a href="../index.php">Home</a></li>
-                        <li><a href="">About Us</a></li>
+                        <li><a href="../index.php#ftr">About Us</a></li>
                         <li><a href="">Menu</a></li>
-                        <li><a href="">Special Offer</a></li>
-                        <li><a href="">Sign in</a></li>
+                        <li><a href="../index.php#spofr">Special Offer</a></li>
+                        <li><a href="login.php">Sign in</a></li>
                     </ul>
                 </div>
             </div>
@@ -45,14 +87,14 @@
                 <div class="fix order_check">
                     <h2>Your Order:</h2>
                     <ul id="update">
-                        <li id="Chicken_Burger">---------</li>
-                        <li id="Beef_Burger">  ----------</li>
-                        <li id="Chicken_Biriyani">-------</li>
-                        <li id="Chicken_Tanduri">--------</li>
-                        <li id="Item1">Special Item1----------</li>
-                        <li id="Item2">Special Item2----------</li>
-                        
-                        <li>Total: <script>document.write(sum)</script><br></li>
+                        <li id="Chicken_Burger">Chicken Burger<g>0</g></li>
+                        <li id="Beef_Burger">  Beef Burger<g>0</g></li>
+                        <li id="Chicken_Biriyani">Chicken Biriyani<g>0</g></li>
+                        <li id="Chicken_Tanduri">Chicken Tanduri<g>0</g></li>
+                        <li id="Item1">Special Item1<g>0</g></li>
+                        <li id="Item2">Special Item2<g>0</g></li>
+                        <hr color="rgb(255, 174, 0)">
+                        <li >Total: <g><script>document.write(sum)</script></g><br></li>
                     </ul>
                     
                 </div>

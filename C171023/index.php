@@ -17,9 +17,9 @@
                 <div class="fix menu">
                     <ul>
                         <li><a href="other/orderNow.php">Order Now</a></li>
-                        <li><a href="">About Us</a></li>
-                        <li><a href="">Menu</a></li>
-                        <li><a href="">Special Offer</a></li>
+                        <li><a href="#ftr">About Us</a></li>
+                        <li><a href="other/orderNow.php">Menu</a></li>
+                        <li><a href="#spofr">Special Offer</a></li>
                         <li><a href="other/login.php">Sign in</a></li>
                     </ul>
                 </div>
@@ -52,7 +52,7 @@
                 </div>   
             </div>
             <hr>
-            <div class="fix menuitem">
+            <div id="spofr" class="fix menuitem">
                 <div class="container">
                     <div class="item item1"></div>
                     <div class="item item2"></div>
@@ -96,7 +96,7 @@
                 </div>
             </div>
             <div class="fix about"></div>
-            <div class="fix footer" >
+            <div id="ftr" class="fix footer" >
                 <div class="fix contacts">
                     <h1>Contacts</h1>
                     <hr width="300px"  color="red" style="margin-left: 600px;">

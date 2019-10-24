@@ -9,6 +9,7 @@ body{font-family:Cursive;}
     
     
 }
+
 .header{
     background-color:#ff3b3b; padding:30px;
 }
@@ -106,4 +107,8 @@ body{font-family:Cursive;}
     
     float:right;
     
+}
+.order_check g{
+    float:right;
+    text-align:right;
 }
