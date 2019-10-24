@@ -6,17 +6,12 @@
 html{
     scroll-behavior: smooth;
 }
+
 .fix{
     overflow:hidden;
 }
 #hm{
 	background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(../Picture/PICTURE.jpg);
-	height: 100vh;
-	background-size: cover;
-	background-position: center;
-}
-#gl{
-	background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(../Picture/1.jpg);
 	height: 100vh;
 	background-size: cover;
 	background-position: center;

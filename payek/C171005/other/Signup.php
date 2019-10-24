@@ -3,7 +3,7 @@
 <head>
       <title> Hotel Shotoshopa</title>
 	  <link rel="stylesheet" type="text/css" href="../css/style.css">
-	  <link rel="stylesheet" type="text/css" href="../css/signupstyle.css">
+	  <link rel="stylesheet" type="text/css" href="../css/signup.css">
 </head>
 <body>
      <header id="hm">		 
@@ -11,8 +11,8 @@
              <img src ="../logo.png">
 			
 		 <ul>
-		     <li class="active"><a href="../index.php#hm"><b>HOME</b></a></li>
-			 <li><a href="../index.php#gl"><b>Gallery</b></a></li>
+		     <li><a href="../index.php#hm"><b>HOME</b></a></li>
+			 <li><a href="../gallery.php"><b>Gallery</b></a></li>
 			 <li><a href="../index.php#room"><b>Room</b></a></li>
 			 <li><a href="../index.php#about"><b>About</b></a></li>
 			 <li><a href="../index.php#contact"><b>Contact</b></a></li>
