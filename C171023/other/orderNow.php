@@ -2,50 +2,7 @@
     <head>
         <title>Impala Restaurant</title>
         <link rel="stylesheet" href="style_order.css" type="text/css">
-        <script >
-            
-
-            var food=[
-                
-                ["Chicken Burger",0],  
-                ["Beef Burger",0],  
-                ["Chicken biriyani",0],  
-                ["Chicken Tanduri",0],  
-                ["Item1",0],  
-                ["Item2",0]  
-                
-            ];
-            
-            var price=[ 120,150,120,300,20,70 ];
-            var sum=0;
-            
-            
-            function Click(name){
-                for(var i=0;i<food.length;i++){
-                    if(name==food[i][0]){
-                        food[i][1]++;
-                        sum=sum+price[i];
-                    }
-                }
-                
-
-                
-                
-            }
-            
-            
-            
-            
-            
-            function print(){
-                for(var i=0;i<food.length;i++){
-                    console.log(food[i][0]+"----"+food[i][1]+"---"+price[i]);
-                    console.log("\n"+sum);
-                }
-                
-            }
-  
-  
+        <script src="../js/script.js">
         
         </script>
     </head>
@@ -74,12 +31,12 @@
                 <h1>Menu:</h1>
                 <div class="fix order_menu">
                     <ul>
-                        <li onClick="Click('Chicken Burger')">Chicken Burger</li>
-                        <li onClick="Click('Beef Burger')">Beef Burger</li>
-                        <li onClick="Click('Chicken biriyani')">Chicken Biriyani</li>
-                        <li onClick="Click('Chicken Tanduri')">Chicken Tanduri</li>
-                        <li onClick="Click('Item1')">Special Item 1</li>
-                        <li onClick="Click('Item2')">Special Item 1</li>
+                        <li onClick="Click('Chicken Burger')">Chicken Burger<g>120/=</g></li>
+                        <li onClick="Click('Beef Burger')">Beef Burger<g>150/=</g></li>
+                        <li onClick="Click('Chicken Biriyani')">Chicken Biriyani<g>120/=</g></li>
+                        <li onClick="Click('Chicken Tanduri')">Chicken Tanduri<g>300/=</g></li>
+                        <li onClick="Click('Item1')">Cold Drinks<g>20/=</g></li>
+                        <li onClick="Click('Item2')">Special Item<g>70/=</g></li>
                         
                     </ul>
                 </div>
@@ -87,18 +44,17 @@
                 <div class="fix order_check">
                     <h2>Your Order:</h2>
                     <ul id="update">
-                        <li id="Chicken_Burger">Chicken Burger<g>0</g></li>
-                        <li id="Beef_Burger">  Beef Burger<g>0</g></li>
-                        <li id="Chicken_Biriyani">Chicken Biriyani<g>0</g></li>
-                        <li id="Chicken_Tanduri">Chicken Tanduri<g>0</g></li>
-                        <li id="Item1">Special Item1<g>0</g></li>
-                        <li id="Item2">Special Item2<g>0</g></li>
+                        <li >Chicken Burger<g id="Chicken Burger">0</g></li>
+                        <li >  Beef Burger<g id="Beef Burger">0</g></li>
+                        <li >Chicken Biriyani<g id="Chicken Biriyani">0</g></li>
+                        <li >Chicken Tanduri<g id="Chicken Tanduri">0</g></li>
+                        <li >Cold Drinks<g id="Item1">0</g></li>
+                        <li >Special Item<g id="Item2">0</g></li>
                         <hr color="rgb(255, 174, 0)">
-                        <li >Total: <g><script>document.write(sum)</script></g><br></li>
+                        <li >Total: <g id="ttl"><script>document.write(sum)</script></g><br></li>
                     </ul>
-                    
                 </div>
-            
+                <center><button class="button button1" onclick="alert('Your Order has been placed');location.reload(true);">Order Now!!! </button></center>
             
             </div>
              
@@ -120,7 +76,8 @@
                         <input type="time"><br>
                         Enter party size:<br>
                         <input type="number"><br>
-                        <input type="submit"><br>
+                        <input type="text" placeholder="Enter Your Email"><br>
+                        <input type="submit" onclick="alert('Your Reservarion is being processed \nWe will inform you through a mail')"><br>
                     </form>
                 </div>
                 <div class="fix social">

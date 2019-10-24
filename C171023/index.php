@@ -112,7 +112,8 @@
                         <input type="time"><br>
                         Enter party size:<br>
                         <input type="number"><br>
-                        <input type="submit"><br>
+                        <input type="text" placeholder="Enter Your Email"><br>
+                        <input type="submit" onclick="alert('Your Reservarion is being processed \nWe will inform you through a mail')"><br>
                     </form>
                 </div>
                 <div class="fix social">
