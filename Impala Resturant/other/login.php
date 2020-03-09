@@ -10,10 +10,10 @@
     <div class="fix menu">
         <ul>
             <li><a href="../index.php">Home</a></li>
-            <li><a href="">About Us</a></li>
-            <li><a href="">Menu</a></li>
-            <li><a href="">Special Offer</a></li>
-            <li><a href="login.php">Sign in</a></li>
+            <li><a href="../index.php#ftr">About Us</a></li>
+            <li><a href="orderNow.php">Menu</a></li>
+            <li><a href="../index.php#spofr">Special Offer</a></li>
+            <li><a href="signup.php">Sign Up</a></li>
         </ul>
     </div>
 </div>
@@ -35,7 +35,7 @@
     <div class="fix contacts">
         <h1>Contacts</h1>
         <hr width="300px"  color="red" style="margin-left: 600px;">
-        <p >Email:mosfak2400@gmail.com</p>
+        <p >Email:robin1212@gmail.com</p>
         <p>Phone:01590127784</p>
     </div>
     <div class="fix seat">
@@ -61,7 +61,7 @@
 </div>
 <div class="fix cpyright">
     <hr color="white">
-    &copy;Developed by Mosfak Motin Rimon
+    &copy;Developed by Abdur Rahman Robin
 </div>
 </body>
 

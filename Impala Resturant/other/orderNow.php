@@ -64,7 +64,7 @@
                 <div class="fix contacts">
                     <h1>Contacts</h1>
                     <hr width="300px"  color="red" style="margin-left: 600px;">
-                    <p >Email:mosfak2400@gmail.com</p>
+                    <p >Email:robin1212@gmail.com</p>
                     <p>Phone:01590127784</p>
                 </div>
                 <div class="fix seat">
@@ -90,7 +90,7 @@
             </div>
 			<div class="fix cpyright">
 				<hr color="white">
-				&copy;Developed by Mosfak Motin Rimon
+				&copy;Developed by Abdur Rahman Robin
 			</div>
 			
 			

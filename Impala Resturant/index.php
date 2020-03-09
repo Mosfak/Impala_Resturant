@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>Impala Restaurant</title>
+        <title>Halal Bhoj</title>
         <link rel="stylesheet" href="style.css" type="text/css">
         <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
         <link rel="stylesheet" href="css/default/default.css" type="text/css" media="screen" />
@@ -13,7 +13,7 @@
         <div class="fix main">
             
             <div class="fix header">
-                <div class="fix logo"><h1><span style="color:yellow;font-size:50;text-decoration:;">Im<span style="color:blue;">pala</span></span><br>Restaurant</h1></div>
+                <div class="fix logo"><h1><span style="color:yellow;font-size:50;text-decoration:;">Ha<span style="color:blue;">lal</span></span><br>Bhoj</h1></div>
                 <div class="fix menu">
                     <ul>
                         <li><a href="other/orderNow.php">Order Now</a></li>
@@ -65,17 +65,25 @@
             <hr color="red" height="5px;" style="margin-bottom:20px;">
             <div class="fix kitchen">
                 <div class="text">
-                    <h1>Our Kitchen</h1><br>
-                    <p>
-                    The kitchen is fitted with the most up<br>
-                    to date hygienic kitchen maintained and<br>
-                    operated by our highly trained team of <br>
-                    Food and Beverage specialists. Our service<br>
-                    staff are professionally trained and <br>
-                    knowledgeable in the local area and <br>
-                    aim to assist in making your stay <br>
-                    pleasurable and an unforgettable <br>
-                    experience</p>
+                    <h1>Halal food</h1>
+                    <pre style ="color:yellow;">The Halal Diet
+Islamic dietary laws define which foods are halal.  Halal foods are lawful and permitted to be eaten by those observing Islamic teachings. Muslims are not allowed to consume foods or beverages that are Haram, or forbidden. Foods that carry a halal symbol on their packaging have been approved by an agency and are certified to be free of any forbidden components or ingredients. Halal claims on the nutrition label or the packaging must include the name of the certification body.
+Examples of foods Halal (allowed) and Haram (forbidden):
+Cereal products Halal:
+Cereal products not containing haram ingredients
+Rice 
+Pasta
+Fruits and vegetables Halal: 
+All (frozen, canned, raw, boiled, butter, vegetable, oil)
+Juice
+Milk and dairy Halal: 
+Milk 
+Yogurt, cheese, and ice creame made with bacterial culture without animal rennet
+Milk and dairy Haram: 
+Cheese, yogurt and ice cream made with animal rennet, vanilla extract, gelatine, pepsin, or lipase
+Meats and alternatives Halal: 
+
+        </pre>
                 </div>
             </div>
             <div class="fix interior">
@@ -100,8 +108,8 @@
                 <div class="fix contacts">
                     <h1>Contacts</h1>
                     <hr width="300px"  color="red" style="margin-left: 600px;">
-                    <p >Email:mosfak2400@gmail.com</p>
-                    <p>Phone:01590127784</p>
+                    <p >Email:robin1226@gmail.com</p>
+                    <p>Phone:01884212145</p>
                 </div>
                 <div class="fix seat">
                     <form>
@@ -126,7 +134,7 @@
             </div>
 			<div class="fix cpyright">
 				<hr color="white">
-				&copy;Developed by Mosfak Motin Rimon
+				&copy;Developed by Abdur Rahman Robin
 			</div>
 			
 			
