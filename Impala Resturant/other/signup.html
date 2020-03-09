@@ -4,29 +4,31 @@
 </head>
 
 <body>
-    
 <div class="fix header">
     <div class="fix logo" onclick="document.location.href='../index.php'"><h1><span style="color:yellow;font-size:50;text-decoration:;">Im<span style="color:blue;">pala</span></span><br>Restaurant</h1></div>
     <div class="fix menu">
         <ul>
-            <li><a href="../index.php">Home</a></li>
-            <li><a href="../index.php#ftr">About Us</a></li>
-            <li><a href="orderNow.php">Menu</a></li>
-            <li><a href="../index.php#spofr">Special Offer</a></li>
-            <li><a href="signup.php">Sign Up</a></li>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../index.html#ftr">About Us</a></li>
+            <li><a href="orderNow.html">Menu</a></li>
+            <li><a href="../index.html#spofr">Special Offer</a></li>
+            <li><a href="login.html">Sign in</a></li>
         </ul>
     </div>
 </div>
   
 <div class="fix frm">
-    <form action="../php/loginaction.php" method="post">
+    <form action="../php/signupaction.php" method="post">
         <lebel>Email</lebel><br>
-        <input type="text" name="email" ><br>
+        <input type="text" name="email" ><br><br>
         <lebel>Password</lebel><br>
         <input type="password" name="pass"><br><br>
-        <input type="submit" value="login"/>
-        <a href="signup.php"> >>Sign Up</a>
-
+        <lebel>Name</lebel><br>
+        <input type="text" name="name"><br><br>
+        <lebel>Phone</lebel><br>
+        <input type="text" name="phone"><br><br>
+        <input type="submit" value="Sign Up"/>
+        <a href="login.php" > >>Login</a>
     </form>
     
 </div>
@@ -61,7 +63,7 @@
 </div>
 <div class="fix cpyright">
     <hr color="white">
-    &copy;Developed by Abdur Rahman Robin
+    &copy;Developed by Mosfak Motin Rimon
 </div>
 </body>
 
